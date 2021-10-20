@@ -8,6 +8,11 @@ import Header from './component/layout/Header';
 import Master from './component/layout/Master';
 import Register from './component/Register/Register';
 import Login from './component/Register/Login';
+import Forget from './component/Forget/Forget';
+import ForgetMultiEmail from './component/Forget/ForgetMultiEmail';
+import ForgetEmail from './component/Forget/ForgetEmail';
+import ForgetVerify from './component/Forget/ForgetVerify';
+import ForgetPassword from './component/Forget/ForgetPassword';
 import './style.css';
 import './asset/css/themify-icons.css';
 import './asset/css/grid.css';
@@ -25,6 +30,7 @@ function Index(){
 					<Route exact path="/" component={Master} />
 					<Route path="/register" component={Register} />
 					<Route path="/login" component={Login} />
+					<Route path="/forget" component={Forget} />
 				</Switch>
 			</Router>
 			

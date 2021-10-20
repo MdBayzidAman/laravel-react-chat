@@ -10,7 +10,7 @@ function InboxFeed(props) {
         <>
 			{ props.userInfo.map((data, index)=>{
 				return(
-					<>
+					<div key={index} >
 						<div onClick={()=>props.chatClick(data)}  className="people-user-massage">
 							<div className="massages-people">
 								<div className="msg-people">
@@ -29,7 +29,7 @@ function InboxFeed(props) {
 								</div>
 							</div>						
 						</div>	
-					</>
+					</div>
 				);
 			})}
         </>

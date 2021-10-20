@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 //		JESON
 route::get('/inbox-chat','inboxController@chat');
+route::post('/user-massages','msgControll@store');	// massage send
 
 
 

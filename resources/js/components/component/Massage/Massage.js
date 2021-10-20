@@ -5,25 +5,36 @@ import profileImg from '../../image/self/user.jpg';
 
 function Massage(props) {
 	
-	const [massage, setMassage] = useState({
-		username: "",
-		msg:"",
-		img:"",
-	});
-	
+	const [massage, setMassage] = useState(props.msgbox);
 	console.log(massage);
 	
-	const sendMsg=()=>{
+	
+	const SendMsg=(event)=>{
+		event.preventDefault();
+
+		axios.post('/user-massages', massage)
+		.then(response=>{
+			console.log(response.data);
+			setMassage({...massage, img:"", msg:""});
+		})
+		.then(error=>{
+			
+		});
 		
 	};
 	
-
-	//
+	useEffect(()=>{
+		setMassage(props.msgbox);
+	},[props.selectUser])
+	
+	
 	
 	const ChatBox=()=>{
-		
+
+	
 	return(
 		<>
+		
 			<div className="massage-div">
 				<div className="massage-title">
 				
@@ -37,18 +48,17 @@ function Massage(props) {
 				<div className="massage-footer">
 				
 				
-				<form onSubmit={sendMsg} encType="multipart/form-data" id="msg-form"  >
+				<form onSubmit={SendMsg} id="msg-form" >
 					
-					<input onChange={(e)=>setMassage({...massage, username: props.selectUser.username, img:e.target.value})} type="file" name="image" id="image" className="ti-gallery" />
+					<input onChange={(e)=>setMassage({...massage, img:e.target.value})} type="file" name="image" id="image" className="ti-gallery" />
 					
 					<input id="username" type="hidden" value={ props.selectUser.username } />
 					
-					<input onChange={(e)=>setMassage({...massage, username: props.selectUser.username, msg:e.target.value})} type="text" name="massage" id="massage" placeholder="Text a massage" className="msg-text" />
+					<input onChange={(e)=>setMassage({...massage, msg:e.target.value})} value={massage.msg || ''} type="text" name="massage" id="massage" placeholder="Text a massage" className="msg-text" />
 					
 					<button type="submit" className="ti-location-arrow send-btn" >
 					</button>
 				</form>
-				
 				
 				</div>
 			</div>

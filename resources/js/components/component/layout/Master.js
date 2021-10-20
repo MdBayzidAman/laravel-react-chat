@@ -12,6 +12,7 @@ function Master() {
 	
 	const [user, setUser] = useState([]);
 	const [selectUser, setSelectUser] = useState([]);
+	const [msgbox, setMsgbox] = useState([]);
 	
 	useEffect(()=>{
 		axios.get('/inbox-chat')
@@ -29,9 +30,16 @@ function Master() {
 	
 	const chatClick=(data)=>{
 		setSelectUser(data);
+		
+		setMsgbox({
+			from_user: data.username,
+			to_user: data.username,
+			msg:"",
+			img:"",
+		});
 		//alert(data.username);
+		
 	};
-	
 	
 	
 /* 
@@ -59,7 +67,7 @@ function Master() {
 							</div>
 						</div>
 						<div id="main-screen" className="col-s-6 mp-0 h-100">
-							<Massage selectUser={selectUser} />
+							<Massage selectUser={selectUser} msgbox={msgbox} />
 						</div>
 						<div id="people-section" className="col-s-3 mp-0 md-none">
 							<NavSection />

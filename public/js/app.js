@@ -13595,7 +13595,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\t/* CURRENNT */\r\n\r\n\r\n.h-100{\r\n\theight: 100%;\r\n}\r\n.pt-4p{\r\n\tpadding-top:40%;\r\n}\r\n\r\n.bg-wht{\r\n\tbackground:#fff;\r\n}\r\n.c-gry{\r\n\tcolor:#b1b1b1;\r\n}\r\n.chat-box{\r\n\tpadding: 2px 0;\r\n}\r\n.massage-section{\r\n\theight: 100%;\r\n    overflow: auto;\r\n}\r\n\r\n/* width */\r\n::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n/* Track */\r\n::-webkit-scrollbar-track {\r\n  background: #e5e5e5; \r\n}\r\n \r\n/* Handle */\r\n::-webkit-scrollbar-thumb {\r\n  background: #bdbdbd;\r\n  border-radius: 10px;\r\n}\r\n\r\n/* Handle on hover */\r\n::-webkit-scrollbar-thumb:hover {\r\n  background: #888; \r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/*\tmobile-setting side bar\t\t*/\r\na:hover{\r\n\ttext-decoration:none;\r\n\tcolor:inherit;\r\n}\r\n.close i{\r\n\tfloat:right;\r\n}\r\n.mobile-setting{\r\n\tbackground:#fff;\r\n\tpadding:20px 15px;\r\n\twidth: 75%;\r\n    height: 100%;\r\n    box-shadow: -20px 0px 0px 2000px #3e3e3e57;\r\n\tposition:fixed;\r\n\tright:0;\r\n\ttop: 0;\r\n\tdisplay:none;\r\n\t-webkit-animation: mobileSetting .3s;\r\n\t        animation: mobileSetting .3s;\r\n}\r\n@-webkit-keyframes mobileSetting{\r\n\tfrom {width:10%;}\r\n\tto {width:75%;}\r\n}\r\n@keyframes mobileSetting{\r\n\tfrom {width:10%;}\r\n\tto {width:75%;}\r\n}\r\n\r\n.setting-nave-ul li{\r\n    list-style: none;\r\n    padding: 9px 20px;\r\n    margin-top: 3px;\r\n\tfont-size:21px;\r\n\tcolor:#333;\r\n\tcursor: pointer;\r\n}\r\n.setting-nave-ul i{margin-right:11px;}\r\n.setting-nave-ul ul li{font-size:16px;}\r\n\r\n\r\n/*\tmobile-menu \t*/\r\nfooter{\r\n\twidth: 100%;\r\n    background: #fff;\r\n    box-shadow: 0px -1px 17px 1px #ddd;\r\n    position: fixed;\r\n    bottom: 0;\r\n\tdisplay:none;\r\n    z-index: 20000;\r\n}\r\n.icons{\r\n\tfont-size:18px;\r\n\tdisplay: flex;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n\tpadding: 15px;\r\n\ttext-align:center;\r\n}\r\n\r\n.icons div span{\r\n\tfont-size:12px;\r\n\tfont-weight:700;\r\n}\r\n\r\n#people-right-icon{\r\n\tmargin-left: -13px;\r\n    background: -webkit-linear-gradient(194deg, #000000, #0d0d0d, #0000008a, #00000000);\r\n    -webkit-background-clip: text;\r\n    -webkit-text-fill-color: #00000000;\r\n}\r\n\r\n/*\tmedia responsive\t*/\r\n@media only screen and (max-width: 576px)\r\n{\r\n\t.md-none{display:none !important;}\r\n\t.md-block{display:block !important;}\r\n\t.mp-0{padding:0 !important;}\r\n\t.body-section{padding-bottom:0px !important;}\r\n\t.people-title{padding:16px 12px !important;}\r\n\t.middle-nav {border: none !important;}\r\n\t.main-section{width:90% !important; margin-top:20% !important;}\r\n}\r\n\r\n@media only screen and (max-width: 768px)\r\n{\r\n\t.md-none{display:none !important;}\r\n\t.md-block{display:block !important;}\r\n\t.mp-0{padding:0 !important;}\r\n\t.body-section{padding-bottom:0px !important;}\r\n\t.people-title{padding:16px 12px !important;}\r\n\t.middle-nav {border: none !important;}\r\n\t\r\n}\r\n\r\n@media only screen and (max-width: 1200px)\r\n{\r\n\t.top-nav-left a{font-size:20px !important;}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/* \t\t\tHOME PAGE CSS\t\t*/\r\n*{font-family: sans-serif;}\r\n.top-nav{\r\n\tfont-size:23px;\r\n\tpadding: 15px 0;\r\n    border-bottom: 1px solid #ddd;\r\n}\r\n.top-nav-left{\r\n\tdisplay: flex;\r\n    justify-content: space-between;\r\n    align-items: baseline;\r\n\tpadding: 15px 0;\r\n}\r\n\r\n.top-nav-left img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n\tborder-radius: 50%;\r\n\tmargin-right:8px;\r\n}\r\n.top-nav-left a{\r\n    height: 40px;\r\n\t\r\n\tdisplay: flex;\r\n    align-items: center;\r\n\tfont-size:25px;\r\n\tfont-family: sans-serif;\r\n}\r\n\r\n.middle-nav{\r\n\tborder-right: 1px solid #dedede;\r\n    border-left: 1px solid #dedede;\r\n}\r\n.top-nav-middle{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n\tpadding: 15px 0;\r\n}\r\n\r\n.title{\r\n\tfont-size: 30px !important;\r\n    font-family: sans-serif !important;\r\n\tbox-shadow:none !important;\r\n\tfont-weight: bold;\r\n}\r\n.user{\r\n    width: 80%;\r\n    font-size: 17px;\r\n}\r\n.user-img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n    border-radius: 50%;\r\n    border: 1px solid #ddd;\r\n    margin-right: 7px;\r\n}\r\n.user a {\r\n    display: flex;\r\n    align-items: center;\r\n\tcursor:pointer;\r\n}\r\n.top-nav-right{\r\n    padding: 15px 0;\t\r\n}\r\n.search{\r\n    width: 60%;\r\n    background: #f5f5f5;\r\n    border: 1px solid #efefef;\r\n    border-radius: 20px;\r\n    padding: 7px 15px;\r\n    font-size: 17px;\r\n}\r\n\r\n.body-section{\r\n    box-shadow: inset 0px 6px 9px 0px #ececec;\r\n    background: #f3f3f3cc;\r\n    position: absolute;\r\n    bottom: 0;\r\n    top: 76px;\r\n    width: 100%;\r\n    height: auto;\r\n    overflow: auto;\r\n}\r\n.side-nave-ul li{\r\n    list-style: none;\r\n    padding: 9px 20px;\r\n    margin-top: 3px;\r\n}\r\n.side-nave-ul li:hover{\r\n    background: #fff;\r\n    color: #37a01f;\r\n    border-radius: 10px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n.side-nave-ul li:hover > a{\r\n    color: #37a01f;\r\n}\r\n\r\n.active{\r\n    background: #fff;\r\n    color: #37a01f;\r\n    border-radius: 10px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n\r\n.side-nave-ul li{\r\n\tfont-size:21px;\r\n\tcolor:#333;\r\n\tcursor: pointer;\r\n}\r\n\r\n/* .side-nave-ul li a:hover{\r\n\tcolor: #37a01f;\r\n}\r\n */\r\n \r\n/* .section-title{\r\n    background: #fff;\r\n    font-size: 22px;\r\n    font-family: sans-serif;\r\n    padding: 13px 20px;\r\n    margin-top: 3px;\r\n    margin-bottom: 1px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    \r\n}\r\n */\r\n.massage-title{\r\n    background: #fff;\r\n    font-size: 22px;\r\n    font-family: sans-serif;\r\n    padding: 13px 20px;\r\n    margin-top: 3px;\r\n    margin-bottom: 1px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    display: flex;\r\n    align-items: center; \r\n\tcursor: pointer;\t\r\n}\r\n\r\n\r\n.massages-people{\r\n\tcursor: pointer;\r\n    background: #fff;\r\n    font-family: sans-serif;\r\n    padding: 15px 20px;\r\n    margin-top: 0.8px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    /* border-radius: 10px; */\r\n/*     display: flex;\r\n\talign-items: center;\r\n */}\r\n \r\n.msg-info{\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n\tjustify-content: center;\r\n\t/* width: 65%; */\r\n}\r\n.msg-people-name{\r\n\tfont-size:17px;\r\n}\r\n.msg-people-info{\r\ncolor: #a9a8a8;\r\n    font-size: 13px;\r\n}\r\n.msg-user{\r\n\tfloat:left;\r\n}\r\n.msg-count{\r\n\tfloat:right;\r\n\tpadding-top: 10px;\r\n}\r\n.msg-count span{\r\n    background:#2196f3;\r\n    color: #fff;\r\n    padding: 3px;\r\n    padding-right: 5px;\r\n    border-radius: 50%;\r\n    font-size: 13px;\r\n}\r\n.msg-count, .msg-people{\r\n\tdisplay:inline-block;\r\n}\r\n.msg-people{\r\n\twidth:90%;\r\n}\r\n\r\n.people-title{\r\n\tfont-size: 18px;\r\n    padding: 16px 0;\r\n}\r\n.active-status{\r\n\twidth:13px;\r\n\theight:13px;\r\n    background: #3a9e3e;\r\n    color: #fff;\r\n    padding: 3px;\r\n    border-radius: 50%;\r\n\tmargin-top: 12px\r\n}\r\n\r\n.profile-section{\r\n\tbackground: #fff;\r\n    padding-bottom: 40px;\r\n    margin: 5px 0;\r\n\tdisplay:none;\r\n}\r\n.profile-pic img{\r\n\twidth: 300px;\r\n    height: 300px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 150px;\r\n}\r\n.profile-pic{\r\n    padding: 25px;\r\n    margin: auto;\r\n    text-align: center;\r\n}\r\n.profile-user{\r\n\tfont-size: 21px;\r\n    text-align: center;\r\n}\r\n\r\n.profile-req{\r\n\tpadding: 20px;\r\n    font-size: 17px;\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n}\r\n.add-contact{\r\n\tborder: none;\r\n    padding: 2% 6%;\r\n    background: #2b9d2f;\r\n    border-radius: 6px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n\tdisplay: flex;\r\n}\r\n\r\n.inbox{\r\n\tborder: none;\r\n    padding: 2% 6%;\r\n    background: #2b9d2f;\r\n    border-radius: 6px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n\tdisplay: flex;\r\n}\r\n\r\n\r\n.edit-prof{\r\n\tdisplay:none;\r\n}\r\n.edit-profile{\r\n\tdisplay:none;\r\n\tpadding: 25px;\r\n    font-size: 16px;\r\n}\r\n.msg-link-btn{\r\n\tborder: none;\r\n    padding: 2% 3%;\r\n    background: #d0d0d0;\r\n    border-radius: 6px;\r\n    color: #000;\r\n    font-size: 19px;\r\n}\r\n.bio{\r\n\tpadding: 2% 5.5%;\r\n    color: #5b5b5b;\r\n    font-size: 15px;\r\n}\r\n.profile-info{\r\n\tpadding: 2% 5.5%;\r\n    font-size: 17px;\r\n    line-height: 1.7;\r\n}\r\n.profile-info ul{\r\n\tlist-style:none;\r\n}\r\n\r\n.massage-main-div{\r\n\t/* display:none; */\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n\r\n\r\n.massage-div{\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n    justify-content: flex-start;\r\n}\r\n.msg-img{\r\n\tmargin-left:10px;\r\n}\r\n\r\n.massage-body{\r\n\tbackground: #fff;\r\n    overflow-y: auto;\r\n    height: 84.5%;\r\n    padding: 0 3%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.from-msg{\r\n\tmargin-top: 9px;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    margin-left: auto;\r\n    max-width: 60%;\r\n    background: #e4e4e4;\r\n    padding: 8px 11px;\r\n    color: #333;\r\n    border-radius: 12px 12px 0 12px;\r\n}\r\n.to-msg{\r\n\tmargin-top: 9px;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    max-width: 60%;\r\n    background: #0d84ff;\r\n    margin-right: auto;\r\n    color: #fff;\r\n    padding: 8px 11px;\r\n    border-radius: 0 12px 12px 12px;\r\n}\r\n.from-msg img, .to-msg img{width: 100%;}\r\n\r\n.from-msg p, .to-msg p{overflow: hidden;}\r\n\r\n.massage-footer{\r\n    display: flex;\r\n    background: #fff;\r\n    padding: 2.3% 4%;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n.ti-gallery:before {\r\n    content: \"\\E71E\";\r\n    margin-right: 83px;\r\n}\r\n.ti-gallery{\r\n\tfont-size: 23px;\r\n    width: 9%;\r\n\tcursor: pointer;\r\n}\r\n\r\n.msg-text{\r\n\tpadding: 7px 15px;\r\n    width: 80%;\r\n    font-size: 16px;\r\n    border: 1px solid #ececec;\r\n    border-radius: 69px;\r\n\tbackground: #f5f5f5;\r\n}\r\n.send-btn{\r\n\ttransform: rotate(90deg);\r\n    border: none;\r\n    padding-bottom: 1%;\r\n    font-size: 29px;\r\n    background: #fff;\r\n\tcursor: pointer;\r\n}\r\n\r\n.profileBack{\r\n    font-size: 23px;\r\n    padding-left: 16px;\r\n    padding-top: 11px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.input-name{\r\n\twidth: 49% !important;\r\n}\r\n.gender{\r\n\tpadding: 6px 10px;\r\n/*     border: 1px solid #d0d0d0;\r\n */    border-radius: 5px\r\n}\r\n/*\t\tGrid css\t*/\r\n.d-flex{\r\n\tdisplay:flex;\r\n\tjustify-content: space-between;\r\n}\r\n.input-primary{\r\n\tfont-size: 16px;\r\n\twidth: 100%;\r\n    padding: 7px 6px;\r\n    border: 1px solid #c2c2c2;\r\n    border-radius: 6px;\r\n}\r\n.submit{\r\n    width: 100%;\r\n    border: none;\r\n    background: #5ab245;\r\n    color: white;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n\tmargin-top:20px;\r\n}\r\n.bio{\r\n\tmax-width:100%;\r\n}\r\n.profile-req div, .profile-req button{\r\n\tcursor:pointer;\r\n}\r\n.search-result{\r\n\tdisplay:none;\r\n    background: #ffff;\r\n    width: 100%;\r\n    padding: 15px 11px;\r\n    box-shadow: -1px 6px 20px 0px #ddd;\r\n    position: absolute;\r\n    left: 0px;\r\n    top: 68px;\r\n    z-index: 1000;\r\n}\r\n.search-result-info{\r\n    color: #717171;\r\n    font-size: 13px;\r\n}\r\n.setting-nav li{\r\n\tmargin-left: 15px;\r\n}\r\n\r\n.setting-nav{\r\n\tdisplay:none;\r\n}\r\n.side-nave-ul li i {\r\n    margin-right: 12px;\r\n}\r\n\r\n.m-user{\r\n\tdisplay:none;\r\n\tcursor:pointer;\r\n\tfloat:right;\r\n}\r\n\r\n\r\n/* MEDIA */\r\n@media only screen and (max-width: 576px)\r\n{\r\n\tfooter{\r\n\t\tdisplay:block;\r\n\t}\r\n}\r\n\r\n@media only screen and (max-width: 768px)\r\n{\r\n\tfooter{\r\n\t\tdisplay:block;\r\n\t}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\t/* REGISTER CSS */\r\n.main-section{\r\n\twidth: 450px;\r\n    margin: auto;\r\n    margin-top: 4%;\r\n    padding: 40px 25px;\r\n\tbox-shadow: 0px 0px 10px 1px #e4e4e4;\r\n}\r\n\r\n\r\n.logo-section img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n\tborder-radius: 50%;\r\n\tmargin-right:8px;\r\n}\r\n.logo-section{margin-bottom: 10px;}\r\n.logo-section a{\r\n\theight: 40px;\r\n    display: flex;\r\n    align-items: center;\r\n    font-size: 25px;\r\n    font-family: sans-serif;\r\n    justify-content: center;\r\n}\r\n.form-contentent .form-input{\r\n    width: 100%;\r\n    padding: 7px 11px;\r\n    font-size: 17px;\r\n    color: #333;\r\n    border-radius: 4px;\r\n    border: 2px solid #cecece;\r\n\tmargin-top:12px;\r\n}\r\n\r\n.form-contentent .form-input{\r\n\tmargin-top:12px;\r\n}\r\n\r\n.submit{\r\n    width: 100%;\r\n    border: none;\r\n    background: #5ab245;\r\n    color: white;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n\tmargin-top:20px;\r\n}\r\n\r\n.gender-label{\r\n\tborder: 2px solid #ddd;\r\n    width: 48%;\r\n    padding: 8px 13px;\r\n    border-radius: 7px;\r\n    font-size: 17px;\r\n    font-family: sans-serif;\r\n}\r\n.gender-label input{\r\n    margin-top: 2px;\r\n    float: right;\r\n}\r\n.gender{\r\n\tdisplay:flex;\r\n\tjustify-content: space-between;\r\n}\r\n\r\n.label{\r\n\tmargin-top: 15px;\r\n    margin-bottom: 6px;\r\n    color: #636363;\r\n    font-size: 16px;\r\n    font-family: monospace;\r\n}\r\n\r\n.or-div{\r\n\tdisplay: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    font-size: 15px;\r\n    color: #5d5d5d;\r\n}\r\n.or-row{\r\n\twidth: 45%;\r\n    border: 1px solid #ddd;\r\n}\r\n.footer-section{\r\n\ttext-align: center;\r\n    padding-top: 15px;\r\n    font-size: 16px;\r\n    font-family: monospace;\r\n    line-height: 1.7;\r\n}\r\n.footer-section p a:hover{\r\n\tcolor:green;\r\n\tcursor:pointer;\r\n}\r\n#create-account{\r\n\tfont-size: 20px;\r\n    color: #187b00;\r\n}\r\n\r\n.eye{\r\n\tmargin-top: 8px;\r\n    font-family: system-ui;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\r\n\r\n\t/* CURRENNT */\r\n\r\n.h-100{\r\n\theight: 100%;\r\n}\r\n.pt-4p{\r\n\tpadding-top:40%;\r\n}\r\n\r\n.bg-wht{\r\n\tbackground:#fff;\r\n}\r\n.c-gry{\r\n\tcolor:#b1b1b1;\r\n}\r\n.chat-box{\r\n\tpadding: 2px 0;\r\n}\r\n.massage-section{\r\n\theight: 100%;\r\n    overflow: auto;\r\n}\r\n\r\n/* width */\r\n::-webkit-scrollbar {\r\n  width: 7px;\r\n}\r\n\r\n/* Track */\r\n::-webkit-scrollbar-track {\r\n  background: #e5e5e5; \r\n}\r\n \r\n/* Handle */\r\n::-webkit-scrollbar-thumb {\r\n  background: #bdbdbd;\r\n  border-radius: 10px;\r\n}\r\n\r\n/* Handle on hover */\r\n::-webkit-scrollbar-thumb:hover {\r\n  background: #888; \r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/*\tmobile-setting side bar\t\t*/\r\na:hover{\r\n\ttext-decoration:none;\r\n\tcolor:inherit;\r\n}\r\n.close i{\r\n\tfloat:right;\r\n}\r\n.mobile-setting{\r\n\tbackground:#fff;\r\n\tpadding:20px 15px;\r\n\twidth: 75%;\r\n    height: 100%;\r\n    box-shadow: -20px 0px 0px 2000px #3e3e3e57;\r\n\tposition:fixed;\r\n\tright:0;\r\n\ttop: 0;\r\n\tdisplay:none;\r\n\t-webkit-animation: mobileSetting .3s;\r\n\t        animation: mobileSetting .3s;\r\n}\r\n@-webkit-keyframes mobileSetting{\r\n\tfrom {width:10%;}\r\n\tto {width:75%;}\r\n}\r\n@keyframes mobileSetting{\r\n\tfrom {width:10%;}\r\n\tto {width:75%;}\r\n}\r\n\r\n.setting-nave-ul li{\r\n    list-style: none;\r\n    padding: 9px 20px;\r\n    margin-top: 3px;\r\n\tfont-size:21px;\r\n\tcolor:#333;\r\n\tcursor: pointer;\r\n}\r\n.setting-nave-ul i{margin-right:11px;}\r\n.setting-nave-ul ul li{font-size:16px;}\r\n\r\n\r\n/*\tmobile-menu \t*/\r\nfooter{\r\n\twidth: 100%;\r\n    background: #fff;\r\n    box-shadow: 0px -1px 17px 1px #ddd;\r\n    position: fixed;\r\n    bottom: 0;\r\n\tdisplay:none;\r\n    z-index: 20000;\r\n}\r\n.icons{\r\n\tfont-size:18px;\r\n\tdisplay: flex;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n\tpadding: 15px;\r\n\ttext-align:center;\r\n}\r\n\r\n.icons div span{\r\n\tfont-size:12px;\r\n\tfont-weight:700;\r\n}\r\n\r\n#people-right-icon{\r\n\tmargin-left: -13px;\r\n    background: -webkit-linear-gradient(194deg, #000000, #0d0d0d, #0000008a, #00000000);\r\n    -webkit-background-clip: text;\r\n    -webkit-text-fill-color: #00000000;\r\n}\r\n\r\n/*\tmedia responsive\t*/\r\n@media only screen and (max-width: 576px)\r\n{\r\n\t.md-none{display:none !important;}\r\n\t.md-block{display:block !important;}\r\n\t.mp-0{padding:0 !important;}\r\n\t.body-section{padding-bottom:0px !important;}\r\n\t.people-title{padding:16px 12px !important;}\r\n\t.middle-nav {border: none !important;}\r\n\t.main-section{width:90% !important; margin-top:20% !important;}\r\n}\r\n\r\n@media only screen and (max-width: 768px)\r\n{\r\n\t.md-none{display:none !important;}\r\n\t.md-block{display:block !important;}\r\n\t.mp-0{padding:0 !important;}\r\n\t.body-section{padding-bottom:0px !important;}\r\n\t.people-title{padding:16px 12px !important;}\r\n\t.middle-nav {border: none !important;}\r\n\t\r\n}\r\n\r\n@media only screen and (max-width: 1200px)\r\n{\r\n\t.top-nav-left a{font-size:20px !important;}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/* \t\t\tHOME PAGE CSS\t\t*/\r\n*{font-family: sans-serif;}\r\n.top-nav{\r\n\tfont-size:23px;\r\n\tpadding: 15px 0;\r\n    border-bottom: 1px solid #ddd;\r\n}\r\n.top-nav-left{\r\n\tdisplay: flex;\r\n    justify-content: space-between;\r\n    align-items: baseline;\r\n\tpadding: 15px 0;\r\n}\r\n\r\n.top-nav-left img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n\tborder-radius: 50%;\r\n\tmargin-right:8px;\r\n}\r\n.top-nav-left a{\r\n    height: 40px;\r\n\t\r\n\tdisplay: flex;\r\n    align-items: center;\r\n\tfont-size:25px;\r\n\tfont-family: sans-serif;\r\n}\r\n\r\n.middle-nav{\r\n\tborder-right: 1px solid #dedede;\r\n    border-left: 1px solid #dedede;\r\n}\r\n.top-nav-middle{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n\tpadding: 15px 0;\r\n}\r\n\r\n.title{\r\n\tfont-size: 30px !important;\r\n    font-family: sans-serif !important;\r\n\tbox-shadow:none !important;\r\n\tfont-weight: bold;\r\n}\r\n.user{\r\n    width: 80%;\r\n    font-size: 17px;\r\n}\r\n.user-img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n    border-radius: 50%;\r\n    border: 1px solid #ddd;\r\n    margin-right: 7px;\r\n}\r\n.user a {\r\n    display: flex;\r\n    align-items: center;\r\n\tcursor:pointer;\r\n}\r\n.top-nav-right{\r\n    padding: 15px 0;\t\r\n}\r\n.search{\r\n    width: 60%;\r\n    background: #f5f5f5;\r\n    border: 1px solid #efefef;\r\n    border-radius: 20px;\r\n    padding: 7px 15px;\r\n    font-size: 17px;\r\n}\r\n\r\n.body-section{\r\n    box-shadow: inset 0px 6px 9px 0px #ececec;\r\n    background: #f3f3f3cc;\r\n    position: absolute;\r\n    bottom: 0;\r\n    top: 76px;\r\n    width: 100%;\r\n    height: auto;\r\n    overflow: auto;\r\n}\r\n.side-nave-ul li{\r\n    list-style: none;\r\n    padding: 9px 20px;\r\n    margin-top: 3px;\r\n}\r\n.side-nave-ul li:hover{\r\n    background: #fff;\r\n    color: #37a01f;\r\n    border-radius: 10px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n.side-nave-ul li:hover > a{\r\n    color: #37a01f;\r\n}\r\n\r\n.active{\r\n    background: #fff;\r\n    color: #37a01f;\r\n    border-radius: 10px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n\r\n.side-nave-ul li{\r\n\tfont-size:21px;\r\n\tcolor:#333;\r\n\tcursor: pointer;\r\n}\r\n\r\n/* .side-nave-ul li a:hover{\r\n\tcolor: #37a01f;\r\n}\r\n */\r\n \r\n/* .section-title{\r\n    background: #fff;\r\n    font-size: 22px;\r\n    font-family: sans-serif;\r\n    padding: 13px 20px;\r\n    margin-top: 3px;\r\n    margin-bottom: 1px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    \r\n}\r\n */\r\n.massage-title{\r\n    background: #fff;\r\n    font-size: 22px;\r\n    font-family: sans-serif;\r\n    padding: 13px 20px;\r\n    margin-top: 3px;\r\n    margin-bottom: 1px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    display: flex;\r\n    align-items: center; \r\n\tcursor: pointer;\t\r\n}\r\n\r\n\r\n.massages-people{\r\n\tcursor: pointer;\r\n    background: #fff;\r\n    font-family: sans-serif;\r\n    padding: 15px 20px;\r\n    margin-top: 0.8px;\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n    /* border-radius: 10px; */\r\n/*     display: flex;\r\n\talign-items: center;\r\n */}\r\n \r\n.msg-info{\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n\tjustify-content: center;\r\n\t/* width: 65%; */\r\n}\r\n.msg-people-name{\r\n\tfont-size:17px;\r\n}\r\n.msg-people-info{\r\ncolor: #a9a8a8;\r\n    font-size: 13px;\r\n}\r\n.msg-user{\r\n\tfloat:left;\r\n}\r\n.msg-count{\r\n\tfloat:right;\r\n\tpadding-top: 10px;\r\n}\r\n.msg-count span{\r\n    background:#2196f3;\r\n    color: #fff;\r\n    padding: 3px;\r\n    padding-right: 5px;\r\n    border-radius: 50%;\r\n    font-size: 13px;\r\n}\r\n.msg-count, .msg-people{\r\n\tdisplay:inline-block;\r\n}\r\n.msg-people{\r\n\twidth:90%;\r\n}\r\n\r\n.people-title{\r\n\tfont-size: 18px;\r\n    padding: 16px 0;\r\n}\r\n.active-status{\r\n\twidth:13px;\r\n\theight:13px;\r\n    background: #3a9e3e;\r\n    color: #fff;\r\n    padding: 3px;\r\n    border-radius: 50%;\r\n\tmargin-top: 12px\r\n}\r\n\r\n.profile-section{\r\n\tbackground: #fff;\r\n    padding-bottom: 40px;\r\n    margin: 5px 0;\r\n\tdisplay:none;\r\n}\r\n.profile-pic img{\r\n\twidth: 300px;\r\n    height: 300px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 150px;\r\n}\r\n.profile-pic{\r\n    padding: 25px;\r\n    margin: auto;\r\n    text-align: center;\r\n}\r\n.profile-user{\r\n\tfont-size: 21px;\r\n    text-align: center;\r\n}\r\n\r\n.profile-req{\r\n\tpadding: 20px;\r\n    font-size: 17px;\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n}\r\n.add-contact{\r\n\tborder: none;\r\n    padding: 2% 6%;\r\n    background: #2b9d2f;\r\n    border-radius: 6px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n\tdisplay: flex;\r\n}\r\n\r\n.inbox{\r\n\tborder: none;\r\n    padding: 2% 6%;\r\n    background: #2b9d2f;\r\n    border-radius: 6px;\r\n    color: #fff;\r\n    font-size: 16px;\r\n\tdisplay: flex;\r\n}\r\n\r\n\r\n.edit-prof{\r\n\tdisplay:none;\r\n}\r\n.edit-profile{\r\n\tdisplay:none;\r\n\tpadding: 25px;\r\n    font-size: 16px;\r\n}\r\n.msg-link-btn{\r\n\tborder: none;\r\n    padding: 2% 3%;\r\n    background: #d0d0d0;\r\n    border-radius: 6px;\r\n    color: #000;\r\n    font-size: 19px;\r\n}\r\n.bio{\r\n\tpadding: 2% 5.5%;\r\n    color: #5b5b5b;\r\n    font-size: 15px;\r\n}\r\n.profile-info{\r\n\tpadding: 2% 5.5%;\r\n    font-size: 17px;\r\n    line-height: 1.7;\r\n}\r\n.profile-info ul{\r\n\tlist-style:none;\r\n}\r\n\r\n.massage-main-div{\r\n\t/* display:none; */\r\n    box-shadow: 2px 3px 7px 0px #e4e4e4;\r\n}\r\n\r\n\r\n.massage-div{\r\n\tdisplay: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n    justify-content: flex-start;\r\n}\r\n.msg-img{\r\n\tmargin-left:10px;\r\n}\r\n\r\n.massage-body{\r\n\tbackground: #fff;\r\n    overflow-y: auto;\r\n    height: 84.5%;\r\n    padding: 0 3%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n.from-msg{\r\n\tmargin-top: 9px;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    margin-left: auto;\r\n    max-width: 60%;\r\n    background: #e4e4e4;\r\n    padding: 8px 11px;\r\n    color: #333;\r\n    border-radius: 12px 12px 0 12px;\r\n}\r\n.to-msg{\r\n\tmargin-top: 9px;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    max-width: 60%;\r\n    background: #0d84ff;\r\n    margin-right: auto;\r\n    color: #fff;\r\n    padding: 8px 11px;\r\n    border-radius: 0 12px 12px 12px;\r\n}\r\n.from-msg img, .to-msg img{width: 100%;}\r\n\r\n.from-msg p, .to-msg p{overflow: hidden;}\r\n\r\n.massage-footer{\r\n    display: flex;\r\n    background: #fff;\r\n    padding: 2.3% 4%;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n.ti-gallery:before {\r\n    content: \"\\E71E\";\r\n    margin-right: 83px;\r\n}\r\n.ti-gallery{\r\n\tfont-size: 23px;\r\n    width: 9%;\r\n\tcursor: pointer;\r\n}\r\n\r\n.msg-text{\r\n\tpadding: 7px 15px;\r\n    width: 80%;\r\n    font-size: 16px;\r\n    border: 1px solid #ececec;\r\n    border-radius: 69px;\r\n\tbackground: #f5f5f5;\r\n}\r\n.send-btn{\r\n\ttransform: rotate(90deg);\r\n    border: none;\r\n    padding-bottom: 1%;\r\n    font-size: 29px;\r\n    background: #fff;\r\n\tcursor: pointer;\r\n}\r\n\r\n.profileBack{\r\n    font-size: 23px;\r\n    padding-left: 16px;\r\n    padding-top: 11px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n.input-name{\r\n\twidth: 49% !important;\r\n}\r\n.gender{\r\n\tpadding: 6px 10px;\r\n/*     border: 1px solid #d0d0d0;\r\n */    border-radius: 5px\r\n}\r\n/*\t\tGrid css\t*/\r\n.d-flex{\r\n\tdisplay:flex;\r\n\tjustify-content: space-between;\r\n}\r\n.input-primary{\r\n\tfont-size: 16px;\r\n\twidth: 100%;\r\n    padding: 7px 6px;\r\n    border: 1px solid #c2c2c2;\r\n    border-radius: 6px;\r\n}\r\n.submit{\r\n    width: 100%;\r\n    border: none;\r\n    background: #5ab245;\r\n    color: white;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n\tmargin-top:20px;\r\n}\r\n.bio{\r\n\tmax-width:100%;\r\n}\r\n.profile-req div, .profile-req button{\r\n\tcursor:pointer;\r\n}\r\n.search-result{\r\n\tdisplay:none;\r\n    background: #ffff;\r\n    width: 100%;\r\n    padding: 15px 11px;\r\n    box-shadow: -1px 6px 20px 0px #ddd;\r\n    position: absolute;\r\n    left: 0px;\r\n    top: 68px;\r\n    z-index: 1000;\r\n}\r\n.search-result-info{\r\n    color: #717171;\r\n    font-size: 13px;\r\n}\r\n.setting-nav li{\r\n\tmargin-left: 15px;\r\n}\r\n\r\n.setting-nav{\r\n\tdisplay:none;\r\n}\r\n.side-nave-ul li i {\r\n    margin-right: 12px;\r\n}\r\n\r\n.m-user{\r\n\tdisplay:none;\r\n\tcursor:pointer;\r\n\tfloat:right;\r\n}\r\n\r\n\r\n/* MEDIA */\r\n@media only screen and (max-width: 576px)\r\n{\r\n\tfooter{\r\n\t\tdisplay:block;\r\n\t}\r\n}\r\n\r\n@media only screen and (max-width: 768px)\r\n{\r\n\tfooter{\r\n\t\tdisplay:block;\r\n\t}\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\t/* REGISTER CSS */\r\n.main-section{\r\n\twidth: 450px;\r\n    margin: auto;\r\n    margin-top: 4%;\r\n    padding: 40px 25px;\r\n\tbox-shadow: 0px 0px 10px 1px #e4e4e4;\r\n}\r\n\r\n\r\n.logo-section img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n\tborder-radius: 50%;\r\n\tmargin-right:8px;\r\n}\r\n.logo-section{margin-bottom: 10px;}\r\n.logo-section a{\r\n\theight: 40px;\r\n    display: flex;\r\n    align-items: center;\r\n    font-size: 25px;\r\n    font-family: sans-serif;\r\n    justify-content: center;\r\n}\r\n.form-contentent .form-input{\r\n    width: 100%;\r\n    padding: 7px 11px;\r\n    font-size: 17px;\r\n    color: #333;\r\n    border-radius: 4px;\r\n    border: 2px solid #cecece;\r\n\tmargin-top:12px;\r\n}\r\n\r\n.form-contentent .form-input{\r\n\tmargin-top:12px;\r\n}\r\n\r\n.submit{\r\n    width: 100%;\r\n    border: none;\r\n    background: #5ab245;\r\n    color: white;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n\tmargin-top:20px;\r\n}\r\n\r\n.gender-label{\r\n\tborder: 2px solid #ddd;\r\n    width: 48%;\r\n    padding: 8px 13px;\r\n    border-radius: 7px;\r\n    font-size: 17px;\r\n    font-family: sans-serif;\r\n}\r\n.gender-label input{\r\n    margin-top: 2px;\r\n    float: right;\r\n}\r\n.gender{\r\n\tdisplay:flex;\r\n\tjustify-content: space-between;\r\n}\r\n\r\n.label{\r\n\tmargin-top: 15px;\r\n    margin-bottom: 6px;\r\n    color: #636363;\r\n    font-size: 16px;\r\n    font-family: monospace;\r\n}\r\n\r\n.or-div{\r\n\tdisplay: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    font-size: 15px;\r\n    color: #5d5d5d;\r\n}\r\n.or-row{\r\n\twidth: 45%;\r\n    border: 1px solid #ddd;\r\n}\r\n.footer-section{\r\n\ttext-align: center;\r\n    padding-top: 15px;\r\n    font-size: 16px;\r\n    font-family: monospace;\r\n    line-height: 1.7;\r\n}\r\n.footer-section p a:hover{\r\n\tcolor:green;\r\n\tcursor:pointer;\r\n}\r\n#create-account{\r\n\tfont-size: 20px;\r\n    color: #187b00;\r\n}\r\n\r\n.eye{\r\n\tmargin-top: 8px;\r\n    font-family: system-ui;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t/* Forget page CSS */\r\n\r\n.main-section{\r\n\twidth: 450px;\r\n    margin: auto;\r\n    margin-top:8%;\r\n    padding: 40px 25px;\r\n    padding-bottom: 50px;\r\n\tbox-shadow: 0px 0px 10px 1px #e4e4e4;\r\n}\r\n\r\n\r\n.logo-section img{\r\n\twidth: 40px;\r\n    height: 40px;\r\n\tborder-radius: 50%;\r\n\tmargin-right:8px;\r\n}\r\n.logo-section{margin-bottom: 10px;}\r\n.logo-section a{\r\n\theight: 40px;\r\n    display: flex;\r\n    align-items: center;\r\n    font-size: 25px;\r\n    font-family: sans-serif;\r\n    justify-content: center;\r\n}\r\n.form-contentent .form-input{\r\n    width: 100%;\r\n    padding: 7px 11px;\r\n    font-size: 17px;\r\n    color: #333;\r\n    border-radius: 4px;\r\n    border: 2px solid #cecece;\r\n\tmargin-top:12px;\r\n}\r\n\r\n.form-contentent .form-input{\r\n\tmargin-top:12px;\r\n}\r\n\r\n.submit{\r\n    width: 100%;\r\n    border: none;\r\n    background: #5ab245;\r\n    color: white;\r\n    font-size: 18px;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n\tmargin-top:20px;\r\n}\r\n\r\n.gender-label{\r\n\tborder: 2px solid #ddd;\r\n    width: 48%;\r\n    padding: 8px 13px;\r\n    border-radius: 7px;\r\n    font-size: 17px;\r\n    font-family: sans-serif;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t/* Forget when multi email account */\r\n\r\n.account{\r\n\tbox-shadow: 1px 2px 5px 2px #e4e4e4;\r\n}\r\n.email{\r\n\tfloat:right;\r\n\tpadding-top: 10px;\r\n}\r\n.email, .msg-people{\r\n\tdisplay:inline-block;\r\n}\r\n\r\n\t/* Forget verify */\r\n\r\n.resend{\r\n\tborder: none;\r\n    background: #fff;\r\n    color: #58ab44;\r\n    font-size: 15px;\r\n    cursor: pointer;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -77863,6 +77863,302 @@ module.exports = "/fonts/themify.woff?a1ecc3b826d01251edddf29c3e4e1e97";
 
 /***/ }),
 
+/***/ "./resources/js/components/component/Forget/Forget.js":
+/*!************************************************************!*\
+  !*** ./resources/js/components/component/Forget/Forget.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function Forget() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Forget);
+
+/***/ }),
+
+/***/ "./resources/js/components/component/Forget/ForgetEmail.js":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/component/Forget/ForgetEmail.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function ForgetEmail() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "main-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-contentent"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/forget",
+    method: "post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fonFamily: "system-ui",
+      color: "#292929"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enter Email Address ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "email",
+    name: "email",
+    placeholder: "Enter Email",
+    className: "form-input",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Send Verify Code",
+    className: "submit "
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ForgetEmail);
+
+/***/ }),
+
+/***/ "./resources/js/components/component/Forget/ForgetMultiEmail.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/component/Forget/ForgetMultiEmail.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function forgetMultiEmail() {
+  $(document).ready(function () {
+    var $user = $('.msg-people, .email');
+    $('.msg-people').click(function () {
+      // var user=$user.eq($user.index(this) + 1).val();
+      $user.eq($user.index(this) + 1).attr('checked', 'true');
+    });
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "main-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-contentent"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/forget-email",
+    method: "post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fontFamily: "system-ui",
+      color: "#292929"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Choese Your Account ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "account"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "massages-people"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "msg-people"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "user-img msg-user",
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "msg-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "msg-people-name"
+  }, "User Name "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio",
+    name: "username",
+    value: "{{$user->username}}",
+    className: "email",
+    required: true
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Send Verify Code",
+    className: "submit "
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (forgetMultiEmail);
+
+/***/ }),
+
+/***/ "./resources/js/components/component/Forget/ForgetPassword.js":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/component/Forget/ForgetPassword.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function ForgetPassword() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "main-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "logo-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-contentent verify-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/forget-password",
+    method: "post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fontFamily: "system-ui",
+      color: "#292929"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enter new password")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "hidden",
+    name: "username",
+    value: "{{$username}}",
+    className: "form-input",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    name: "password",
+    placeholder: "Enter New Password",
+    className: "form-input",
+    id: "password",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fonFamily: "system-ui",
+      color: "#292929"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Confirm your password")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    name: "confirmPassword",
+    placeholder: "Confirm Password",
+    className: "form-input",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Change password",
+    className: "submit"
+  })))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ForgetPassword);
+
+/***/ }),
+
+/***/ "./resources/js/components/component/Forget/ForgetVerify.js":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/component/Forget/ForgetVerify.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function ForgetVrify() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    "class": "main-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "logo-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: ""
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "form-contentent verify-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/forget-verify",
+    method: "post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fonFamily: "system-ui",
+      color: "#292929"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "Enter Verify Code")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "hidden",
+    name: "username",
+    value: "<?php echo $_REQUEST['username'] ?>",
+    "class": "form-input",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "number",
+    name: "verify",
+    placeholder: "Verify Code",
+    "class": "form-input",
+    id: "password",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Verify Account",
+    "class": "submit "
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "footer-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    action: "/resend",
+    method: "post"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "hidden",
+    name: "username",
+    value: "<?php echo $_REQUEST['username'] ?>",
+    "class": "form-input",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "submit",
+    value: "Resend code ?",
+    "class": "resend"
+  }))))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ForgetVrify);
+
+/***/ }),
+
 /***/ "./resources/js/components/component/Massage/InboxFeed.js":
 /*!****************************************************************!*\
   !*** ./resources/js/components/component/Massage/InboxFeed.js ***!
@@ -77882,7 +78178,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function InboxFeed(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, props.userInfo.map(function (data, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: index
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       onClick: function onClick() {
         return props.chatClick(data);
       },
@@ -77950,19 +78248,27 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function Massage(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
-    username: "",
-    msg: "",
-    img: ""
-  }),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(props.msgbox),
       _useState2 = _slicedToArray(_useState, 2),
       massage = _useState2[0],
       setMassage = _useState2[1];
 
   console.log(massage);
 
-  var sendMsg = function sendMsg() {}; //
+  var SendMsg = function SendMsg(event) {
+    event.preventDefault();
+    axios.post('/user-massages', massage).then(function (response) {
+      console.log(response.data);
+      setMassage(_objectSpread(_objectSpread({}, massage), {}, {
+        img: "",
+        msg: ""
+      }));
+    }).then(function (error) {});
+  };
 
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    setMassage(props.msgbox);
+  }, [props.selectUser]);
 
   var ChatBox = function ChatBox() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -77981,13 +78287,11 @@ function Massage(props) {
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "massage-footer"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-      onSubmit: sendMsg,
-      encType: "multipart/form-data",
+      onSubmit: SendMsg,
       id: "msg-form"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       onChange: function onChange(e) {
         return setMassage(_objectSpread(_objectSpread({}, massage), {}, {
-          username: props.selectUser.username,
           img: e.target.value
         }));
       },
@@ -78002,10 +78306,10 @@ function Massage(props) {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       onChange: function onChange(e) {
         return setMassage(_objectSpread(_objectSpread({}, massage), {}, {
-          username: props.selectUser.username,
           msg: e.target.value
         }));
       },
+      value: massage.msg || '',
       type: "text",
       name: "massage",
       id: "massage",
@@ -78167,24 +78471,26 @@ function Profile() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
-/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
 function Login() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "login-section",
-    "class": "main-section"
+    className: "main-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "logo-section"
+    className: "logo-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    src: _image_self_logo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form-contentent"
+    className: "form-contentent"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     action: "/login",
     method: "post"
@@ -78192,32 +78498,34 @@ function Login() {
     type: "email",
     name: "email",
     placeholder: "Email Address",
-    "class": "form-input",
+    className: "form-input",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
     name: "password",
     placeholder: "Password",
-    "class": "form-input",
+    className: "form-input",
     id: "password",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "submit",
     value: "Log In",
-    "class": "submit "
+    className: "submit "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "footer-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/forget"
-  }, "forget password")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "or-div"
+    className: "footer-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: "/forget"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "forget password")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "or-div"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    "class": "or-row"
+    className: "or-row"
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Or"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    "class": "or-row"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "or-row"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: "/register"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "create-account"
-  }, "Create Account")))));
+  }, "Create Account"))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Login);
@@ -78235,10 +78543,12 @@ function Login() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
-/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../image/self/user.jpg */ "./resources/js/components/image/self/user.jpg");
-/* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../image/self/logo.png */ "./resources/js/components/image/self/logo.png");
+/* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../image/self/user.jpg */ "./resources/js/components/image/self/user.jpg");
+/* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_image_self_user_jpg__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -78247,16 +78557,16 @@ __webpack_require__.r(__webpack_exports__);
 function Register() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "register-section",
-    "class": "main-section"
+    className: "main-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "logo-section"
+    className: "logo-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    src: _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "ChatApplication")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form-contentent"
+    className: "form-contentent"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     action: "/sign-up",
     method: "post"
@@ -78264,33 +78574,33 @@ function Register() {
     type: "text",
     name: "firstName",
     placeholder: "First Name",
-    "class": "form-input",
+    className: "form-input",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
     name: "lastName",
     placeholder: "Last Name",
-    "class": "form-input",
+    className: "form-input",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "email",
     name: "email",
     placeholder: "Email Address",
-    "class": "form-input",
+    className: "form-input",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
     name: "password",
     placeholder: "Create Password",
-    "class": "form-input",
+    className: "form-input",
     required: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "label"
+    className: "label"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Gender")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "gender"
+    className: "gender"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "for": "Male",
-    "class": "gender-label"
+    className: "gender-label"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Male"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "radio",
     name: "gender",
@@ -78299,7 +78609,7 @@ function Register() {
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     "for": "Female",
-    "class": "gender-label"
+    className: "gender-label"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Female"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "radio",
     name: "gender",
@@ -78309,14 +78619,16 @@ function Register() {
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "submit",
     value: "Register",
-    "class": "submit "
+    className: "submit "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "footer-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Already have an account ? ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "footer-section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Already have an account ?", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    to: "/login"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
       color: 'green'
     }
-  }, " Log In  "))))));
+  }, " Log In  ")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Register);
@@ -78440,6 +78752,11 @@ function Master() {
       selectUser = _useState4[0],
       setSelectUser = _useState4[1];
 
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState6 = _slicedToArray(_useState5, 2),
+      msgbox = _useState6[0],
+      setMsgbox = _useState6[1];
+
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     axios.get('/inbox-chat').then(function (response) {
       setUser(response.data);
@@ -78453,7 +78770,13 @@ function Master() {
   }, []);
 
   var chatClick = function chatClick(data) {
-    setSelectUser(data); //alert(data.username);
+    setSelectUser(data);
+    setMsgbox({
+      from_user: data.username,
+      to_user: data.username,
+      msg: "",
+      img: ""
+    }); //alert(data.username);
   };
   /* 
   	$.ajax({
@@ -78485,7 +78808,8 @@ function Master() {
     id: "main-screen",
     className: "col-s-6 mp-0 h-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Massage_Massage__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    selectUser: selectUser
+    selectUser: selectUser,
+    msgbox: msgbox
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "people-section",
     className: "col-s-3 mp-0 md-none"
@@ -78540,12 +78864,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _component_layout_Master__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./component/layout/Master */ "./resources/js/components/component/layout/Master.js");
 /* harmony import */ var _component_Register_Register__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./component/Register/Register */ "./resources/js/components/component/Register/Register.js");
 /* harmony import */ var _component_Register_Login__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./component/Register/Login */ "./resources/js/components/component/Register/Login.js");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./asset/css/themify-icons.css */ "./resources/js/components/asset/css/themify-icons.css");
-/* harmony import */ var _asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _asset_css_grid_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./asset/css/grid.css */ "./resources/js/components/asset/css/grid.css");
-/* harmony import */ var _asset_css_grid_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_asset_css_grid_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _component_Forget_Forget__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./component/Forget/Forget */ "./resources/js/components/component/Forget/Forget.js");
+/* harmony import */ var _component_Forget_ForgetMultiEmail__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./component/Forget/ForgetMultiEmail */ "./resources/js/components/component/Forget/ForgetMultiEmail.js");
+/* harmony import */ var _component_Forget_ForgetEmail__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./component/Forget/ForgetEmail */ "./resources/js/components/component/Forget/ForgetEmail.js");
+/* harmony import */ var _component_Forget_ForgetVerify__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./component/Forget/ForgetVerify */ "./resources/js/components/component/Forget/ForgetVerify.js");
+/* harmony import */ var _component_Forget_ForgetPassword__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./component/Forget/ForgetPassword */ "./resources/js/components/component/Forget/ForgetPassword.js");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./style.css */ "./resources/js/components/style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./asset/css/themify-icons.css */ "./resources/js/components/asset/css/themify-icons.css");
+/* harmony import */ var _asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_asset_css_themify_icons_css__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _asset_css_grid_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./asset/css/grid.css */ "./resources/js/components/asset/css/grid.css");
+/* harmony import */ var _asset_css_grid_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_asset_css_grid_css__WEBPACK_IMPORTED_MODULE_16__);
+
+
+
+
+
 
 
 
@@ -78573,6 +78907,9 @@ function Index() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
     path: "/login",
     component: _component_Register_Login__WEBPACK_IMPORTED_MODULE_8__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Route"], {
+    path: "/forget",
+    component: _component_Forget_Forget__WEBPACK_IMPORTED_MODULE_9__["default"]
   }))));
 }
 
