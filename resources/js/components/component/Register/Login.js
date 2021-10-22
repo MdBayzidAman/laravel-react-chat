@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {Link, NavLink} from 'react-router-dom';
 
 import logoImg from '../../image/self/logo.png';
 
 function Login() {
+	
+	const [values, setValues] = useState({
+		email:"",
+		password:"",
+	});
+	
+	const loginSubmit=()=>{
+		event.preventDefault();
+		
+		axios.post('/login', values)
+		.then(response=>{
+			console.log(response.data);
+		})
+		.then(error=>{
+			console.log(error);
+		});
+		
+	};
 	
 	return (
 		<>
@@ -16,12 +34,12 @@ function Login() {
 				</div>
 				<div className="form-contentent">
 				
-					<form action="/login" method="post" >
+					<form onSubmit={loginSubmit} >
 						
 						
-						<input type="email" name="email" placeholder="Email Address" className="form-input" required />
+						<input onChange={(e)=>setValues({...values, email:e.target.value})} type="email" name="email" placeholder="Email Address" className="form-input" required />
 						
-						<input type="password" name="password" placeholder="Password" className="form-input" id="password" required />
+						<input onChange={(e)=>setValues({...values, password:e.target.value})} type="password" name="password" placeholder="Password" className="form-input" id="password" required />
 						
 						<input type="submit" value="Log In" className="submit " />
 					</form>

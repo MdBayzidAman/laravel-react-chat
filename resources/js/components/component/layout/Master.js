@@ -8,6 +8,7 @@ import Profile from '../Profile/Profile';
 //import Register from '../Register/Register';
 //import Login from '../Register/Login';
 
+
 function Master() {
 	
 	const [user, setUser] = useState([]);

@@ -20,7 +20,10 @@ Route::get('/', function () {
 
 //		JESON
 route::get('/inbox-chat','inboxController@chat');
-route::post('/user-massages','msgControll@store');	// massage send
+route::post('/user-massages','msgControll@store');		// massage send
+
+route::post('/register','registerController@store');	// register ueser
+route::post('/login','registerController@login');	// LOGIN ueser
 
 
 
