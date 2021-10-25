@@ -99,7 +99,7 @@ class registerController extends Controller
 				
 				$request->session()->put('LoggetUser',$userInfo);
 				
-				return response()->json('success');
+				return response()->json('200');
 				//return redirect('/');
 
 			}else if(user_parmition::where([['user_id',$user->username],['verifyed','0']])->first()){

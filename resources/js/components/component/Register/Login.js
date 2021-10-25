@@ -1,21 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import {Link, NavLink, Redirect} from 'react-router-dom';
 
 import logoImg from '../../image/self/logo.png';
 
-function Login() {
+function Login(props) {
 	
 	const [values, setValues] = useState({
 		email:"",
 		password:"",
 	});
 	
-	const loginSubmit=()=>{
+	const loginSubmit =()=>{
 		event.preventDefault();
 		
 		axios.post('/login', values)
 		.then(response=>{
-			console.log(response.data);
+			
+			if(response.data == 200){
+				props.history.push('/');
+			}else{
+			};
+			//console.log(response.data);
 		})
 		.then(error=>{
 			console.log(error);
@@ -34,7 +39,7 @@ function Login() {
 				</div>
 				<div className="form-contentent">
 				
-					<form onSubmit={loginSubmit} >
+					<form onSubmit={loginSubmit}  >
 						
 						
 						<input onChange={(e)=>setValues({...values, email:e.target.value})} type="email" name="email" placeholder="Email Address" className="form-input" required />

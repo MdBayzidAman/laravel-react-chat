@@ -78496,7 +78496,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function Login() {
+function Login(props) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
     email: "",
     password: ""
@@ -78508,7 +78508,11 @@ function Login() {
   var loginSubmit = function loginSubmit() {
     event.preventDefault();
     axios.post('/login', values).then(function (response) {
-      console.log(response.data);
+      if (response.data == 200) {
+        props.history.push('/');
+      } else {}
+
+      ; //console.log(response.data);
     }).then(function (error) {
       console.log(error);
     });
