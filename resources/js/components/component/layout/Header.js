@@ -1,10 +1,18 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 import logoImg from '../../image/self/logo.png';
 import userImg from '../../image/self/user.jpg';
 import profileImg from '../../image/self/user.jpg';
 
 function Header() {
+	const [logetUser, setLogetUser] = useState([]);
+	
+	useEffect(()=>{
+		setLogetUser(sessionStorage.getItem('userInfo'));
+	});
+	
+	console.log(logetUser);
 	
 	return (
 		<>

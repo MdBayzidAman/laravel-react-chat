@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Redirect } from 'react-router-dom';
 
 import Header from './Header';
 import NavSection from '../Navber/NavSection';
@@ -8,12 +9,12 @@ import Profile from '../Profile/Profile';
 //import Register from '../Register/Register';
 //import Login from '../Register/Login';
 
-
-function Master() {
+function Master(props) {
 	
 	const [user, setUser] = useState([]);
 	const [selectUser, setSelectUser] = useState([]);
 	const [msgbox, setMsgbox] = useState([]);
+	const [logetInfo, setLogetInfo] = useState([]);
 	
 	useEffect(()=>{
 		axios.get('/inbox-chat')
@@ -43,41 +44,54 @@ function Master() {
 	};
 	
 	
-/* 
-	$.ajax({
-		type:'get',
-		url:'/inbox-chat',
-		success:function(data){
-			console.log(data);
-		},
-		error:function(data){
-			console.log(data);
-		},
-	});	 */
+	const logetHendle=()=>{
+		$.ajax({
+			type:'get',
+			url:'/user_log',
+			success:function(data){
+				
+				if( data === 'outedAuth'){
+					//<Redirect to="/register" />
+					props.history.push('/register');
+					//alert('sdffg');
+				}else{
+					sessionStorage.setItem('userInfo',data);
+					//setLogetInfo(data);
+					console.log(data);
+				}
+				
+			},
+			error:function(data){
+				console.log(data);
+			},
+		});	
+	};
+	
 	
 	return (
-		<>
-			<Header/>
-			
-			<section className="body-section">
-				<div className="screen h-100">
-					<div className="col h-100">
-						<div className="col-s-3 md-none h-100 p-0">
-							<div className="massage-section">
-								<InboxFeed userInfo={user} chatClick={chatClick} />
+			<>
+			{logetHendle()}
+				<Header/>
+				
+				<section className="body-section">
+					<div className="screen h-100">
+						<div className="col h-100">
+							<div className="col-s-3 md-none h-100 p-0">
+								<div className="massage-section">
+									<InboxFeed userInfo={user} chatClick={chatClick} />
+								</div>
+							</div>
+							<div id="main-screen" className="col-s-6 mp-0 h-100">
+								<Massage selectUser={selectUser} msgbox={msgbox} />
+							</div>
+							<div id="people-section" className="col-s-3 mp-0 md-none">
+								<NavSection />
 							</div>
 						</div>
-						<div id="main-screen" className="col-s-6 mp-0 h-100">
-							<Massage selectUser={selectUser} msgbox={msgbox} />
-						</div>
-						<div id="people-section" className="col-s-3 mp-0 md-none">
-							<NavSection />
-						</div>
 					</div>
-				</div>
-			</section>
-		</>
-	);
+				</section>
+			</>
+		);
 }
 
 export default Master;

@@ -78792,12 +78792,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _image_self_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_self_logo_png__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../image/self/user.jpg */ "./resources/js/components/image/self/user.jpg");
 /* harmony import */ var _image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_image_self_user_jpg__WEBPACK_IMPORTED_MODULE_2__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
 
 
 function Header() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      logetUser = _useState2[0],
+      setLogetUser = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    setLogetUser(sessionStorage.getItem('userInfo'));
+  });
+  console.log(logetUser);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: ""
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -78858,11 +78880,12 @@ function Header() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./resources/js/components/component/layout/Header.js");
-/* harmony import */ var _Navber_NavSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navber/NavSection */ "./resources/js/components/component/Navber/NavSection.js");
-/* harmony import */ var _Massage_Massage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Massage/Massage */ "./resources/js/components/component/Massage/Massage.js");
-/* harmony import */ var _Massage_InboxFeed__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Massage/InboxFeed */ "./resources/js/components/component/Massage/InboxFeed.js");
-/* harmony import */ var _Profile_Profile__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Profile/Profile */ "./resources/js/components/component/Profile/Profile.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./resources/js/components/component/layout/Header.js");
+/* harmony import */ var _Navber_NavSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Navber/NavSection */ "./resources/js/components/component/Navber/NavSection.js");
+/* harmony import */ var _Massage_Massage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Massage/Massage */ "./resources/js/components/component/Massage/Massage.js");
+/* harmony import */ var _Massage_InboxFeed__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Massage/InboxFeed */ "./resources/js/components/component/Massage/InboxFeed.js");
+/* harmony import */ var _Profile_Profile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Profile/Profile */ "./resources/js/components/component/Profile/Profile.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -78880,10 +78903,11 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
  //import Register from '../Register/Register';
 //import Login from '../Register/Login';
 
-function Master() {
+function Master(props) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
       _useState2 = _slicedToArray(_useState, 2),
       user = _useState2[0],
@@ -78898,6 +78922,11 @@ function Master() {
       _useState6 = _slicedToArray(_useState5, 2),
       msgbox = _useState6[0],
       setMsgbox = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      _useState8 = _slicedToArray(_useState7, 2),
+      logetInfo = _useState8[0],
+      setLogetInfo = _useState8[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     axios.get('/inbox-chat').then(function (response) {
@@ -78920,20 +78949,28 @@ function Master() {
       img: ""
     }); //alert(data.username);
   };
-  /* 
-  	$.ajax({
-  		type:'get',
-  		url:'/inbox-chat',
-  		success:function(data){
-  			console.log(data);
-  		},
-  		error:function(data){
-  			console.log(data);
-  		},
-  	});	 */
 
+  var logetHendle = function logetHendle() {
+    $.ajax({
+      type: 'get',
+      url: '/user_log',
+      success: function success(data) {
+        if (data === 'outedAuth') {
+          //<Redirect to="/register" />
+          props.history.push('/register'); //alert('sdffg');
+        } else {
+          sessionStorage.setItem('userInfo', data); //setLogetInfo(data);
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+          console.log(data);
+        }
+      },
+      error: function error(data) {
+        console.log(data);
+      }
+    });
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, logetHendle(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "body-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "screen h-100"
@@ -78943,19 +78980,19 @@ function Master() {
     className: "col-s-3 md-none h-100 p-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "massage-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Massage_InboxFeed__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Massage_InboxFeed__WEBPACK_IMPORTED_MODULE_5__["default"], {
     userInfo: user,
     chatClick: chatClick
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "main-screen",
     className: "col-s-6 mp-0 h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Massage_Massage__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Massage_Massage__WEBPACK_IMPORTED_MODULE_4__["default"], {
     selectUser: selectUser,
     msgbox: msgbox
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "people-section",
     className: "col-s-3 mp-0 md-none"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navber_NavSection__WEBPACK_IMPORTED_MODULE_2__["default"], null))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navber_NavSection__WEBPACK_IMPORTED_MODULE_3__["default"], null))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Master);

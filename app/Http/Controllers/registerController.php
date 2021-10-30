@@ -16,9 +16,18 @@ class registerController extends Controller
     }
 	
 	
-    public function create()
+    public function user_log()
     {
-        //
+		if(session()->has('LoggetUser')){
+			//session()->forget('LoggetUser');
+			$username=session('LoggetUser');
+			$data=user::where('username',$username)->first();
+			
+			return response()->json($data);
+		}else{
+			return response()->json('outedAuth');
+		}
+		
     }
 	
 	
@@ -97,7 +106,7 @@ class registerController extends Controller
 				
 				$userInfo=user::where([['email',$request->email],['password',$request->password]])->first();
 				
-				$request->session()->put('LoggetUser',$userInfo);
+				$request->session()->put('LoggetUser',$userInfo->username);
 				
 				return response()->json('200');
 				//return redirect('/');

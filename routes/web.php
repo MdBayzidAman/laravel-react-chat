@@ -25,6 +25,8 @@ route::post('/user-massages','msgControll@store');		// massage send
 route::post('/register','registerController@store');	// register ueser
 route::post('/login','registerController@login');	// LOGIN ueser
 
+route::get('/user_log','registerController@user_log');	// LOGIN ueser auth
+
 
 
 
