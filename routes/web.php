@@ -27,6 +27,8 @@ route::post('/login','registerController@login');	// LOGIN ueser
 
 route::get('/user_log','registerController@user_log');	// LOGIN ueser auth
 
+route::post('/msgChat','msgControll@msgChats');	// 
+
 
 
 

@@ -1,18 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-import logoImg from '../../image/self/logo.png';
-import userImg from '../../image/self/user.jpg';
-import profileImg from '../../image/self/user.jpg';
+import logoImg from '/public/image/self/logo.png';
+import userImg from '/public/image/self/user.jpg';
 
-function Header() {
-	const [logetUser, setLogetUser] = useState([]);
-	
-	useEffect(()=>{
-		setLogetUser(sessionStorage.getItem('userInfo'));
-	});
-	
-	console.log(logetUser);
+function Header(props) {
 	
 	return (
 		<>
@@ -56,16 +48,19 @@ function Header() {
 						</div>
 						<div className="col-s-3 md-none">
 							<div className="top-nav-right">
-									{/* onclick="profileFunction()"  */}
+								{/* onclick="profileFunction()"  */}
 								<div  className="user">
 									<a >
-									{/* 									@if($user->image)
-										<img className="user-img" src="{{asset('image/profile/'.$user->image)}}" />
-									@else
-										<img className="user-img" src="{{asset('image/self/user.jpg')}}" />
-@endif */}
-										<img className="user-img" src={userImg} />
-										<span><b>{/* {$name} */} USER NAME </b></span>
+									
+										{props.logetInfo.image?(
+											<img className="user-img" src={'/image/self/'+props.logetInfo.image} />
+										):
+										(
+											<img className="user-img" src='/image/self/user.jpg' />
+										)}
+										
+										
+										<span><b> { props.logetInfo.firstName } { props.logetInfo.lastName } </b></span>
 									</a>
 								</div>
 							</div>

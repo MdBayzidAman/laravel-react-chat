@@ -14,7 +14,10 @@ function Master(props) {
 	const [user, setUser] = useState([]);
 	const [selectUser, setSelectUser] = useState([]);
 	const [msgbox, setMsgbox] = useState([]);
-	const [logetInfo, setLogetInfo] = useState([]);
+	const [logetInfo, setLogetInfo] = useState({});
+	const [msgChat, setMsgChat] = useState([]);
+	
+	console.log(logetInfo);
 	
 	useEffect(()=>{
 		axios.get('/inbox-chat')
@@ -34,17 +37,36 @@ function Master(props) {
 		setSelectUser(data);
 		
 		setMsgbox({
-			from_user: data.username,
+			from_user: logetInfo.username,
 			to_user: data.username,
 			msg:"",
-			img:"",
+			//image:"",
 		});
+		
+		const formdata= new FormData();
+		formdata.append('to_user', data.username);
+		
+		axios.post('/msgChat',formdata).then(response=>{
+			
+			if(response.status===200){
+				setMsgChat(response.data)
+				console.log(response.data);
+			}else{
+				
+			}
+			
+		}).then(error=>{
+			console.log(error);
+		});
+		
+		
 		//alert(data.username);
 		
 	};
 	
 	
-	const logetHendle=()=>{
+	
+	useEffect(()=>{
 		$.ajax({
 			type:'get',
 			url:'/user_log',
@@ -53,10 +75,11 @@ function Master(props) {
 				if( data === 'outedAuth'){
 					//<Redirect to="/register" />
 					props.history.push('/register');
+					console.log(data);
 					//alert('sdffg');
 				}else{
-					sessionStorage.setItem('userInfo',data);
-					//setLogetInfo(data);
+					//sessionStorage.setItem('userInfo', JSON.stringify(data));
+					setLogetInfo(data);
 					console.log(data);
 				}
 				
@@ -65,13 +88,13 @@ function Master(props) {
 				console.log(data);
 			},
 		});	
-	};
+	},[]);
+	
 	
 	
 	return (
 			<>
-			{logetHendle()}
-				<Header/>
+				<Header logetInfo={logetInfo} />
 				
 				<section className="body-section">
 					<div className="screen h-100">

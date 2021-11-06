@@ -1,7 +1,6 @@
 import React from 'react';
 
-import userImg from '../../image/self/user.jpg';
-import profileImg from '../../image/self/user.jpg';
+import userImg from '/public/image/self/user.jpg';
 
 function InboxFeed(props) {
 	
