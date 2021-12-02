@@ -22,27 +22,32 @@
 	height: 100%;
     overflow: auto;
 }
+.from-msg p, to-msg p{margin-bottom:0; font-size:15px;}
 
-/* width */
-::-webkit-scrollbar {
-  width: 7px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #e5e5e5; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #bdbdbd;
-  border-radius: 10px;
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #888; 
-}
+	/* scrollbar design */
+	
+	/* width */
+	::-webkit-scrollbar {
+	  width: 7px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+	  background: #e5e5e5; 
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	  background: #bdbdbd;
+	  border-radius: 10px;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+	  background: #888; 
+	}
 
 
 

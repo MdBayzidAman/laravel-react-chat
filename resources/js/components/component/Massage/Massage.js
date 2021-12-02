@@ -19,7 +19,6 @@ function Massage(props) {
 		formData.append('image', msgImage.image);
 		formData.append('msg', massage.msg);
 		
-		console.log(formData);
 		axios.post('/user-massages', formData)
 		.then(response=>{
 			console.log(response.data);
@@ -36,13 +35,29 @@ function Massage(props) {
 		setMassage(props.msgbox);
 	},[props.selectUser])
 	
-	
 	const imgChang=(event)=>{
 		setMsgImage({image: event.target.files[0]})
 	};
 	
-	const ChatBox=()=>{
 
+//	useEffect(()=>{
+		//console.log(massage.to_user);
+/* 		const msgChatsLiveTime = setInterval(msgChatsLive, 2000);
+		function msgChatsLive(){
+			
+			axios.post('/msgChatsLive', {'to_user': massage.to_user})
+			.then(response=>{
+				console.log(response.data);
+			}).then(error=>{
+				//console.log(error);
+			});
+		};
+ */		
+//	},[]);
+	
+	
+	const ChatBox=()=>{
+	
 	
 		return(
 			<>
@@ -55,8 +70,41 @@ function Massage(props) {
 						<span className="msg-name" > {props.selectUser.firstName} {props.selectUser.lastName} </span>
 					</div>
 					<div className="massage-body">
-						<div className="from-msg"><p>'+chat.massage+'</p></div>
-						<div className="to-msg"><p>'+chat.massage+'</p></div>
+						
+						
+						{props.msgChat.map((data, index)=>{
+							return(
+								massage.from_user===data.from_user?(
+									data.image===null?(
+										<div key={index} className="from-msg"><p>{data.massage}</p></div>
+									):data.massage===null?(
+										<div key={index} className="from-msg"><img src={'image/user/'+data.image} alt="" /></div>
+									):(
+										<div key={index} className="from-msg">
+										<p>{data.massage}</p>
+										<img src={'image/user/'+data.image} alt="" />
+										</div>
+									)
+									
+								):
+								(
+								
+									data.image===null?(
+										<div key={index} className="to-msg"><p>{data.massage}</p></div>
+									):data.massage===null?(
+										<div key={index} className="to-msg"><img src={'image/user/'+data.image} alt="" /></div>
+									):(
+										<div key={index} className="to-msg">
+										<p>{data.massage}</p>
+										<img src={'image/user/'+data.image} alt="" />
+										</div>
+									)
+								)
+							)
+						})}
+						
+						
+						
 						<p id="massage-end"></p>
 					</div>
 					<div className="massage-footer">

@@ -36,6 +36,8 @@ function Master(props) {
 	const chatClick=(data)=>{
 		setSelectUser(data);
 		
+
+		
 		setMsgbox({
 			from_user: logetInfo.username,
 			to_user: data.username,
@@ -60,11 +62,20 @@ function Master(props) {
 		});
 		
 		
-		//alert(data.username);
+		clearInterval(msgChatsLiveTime);
+	 	const msgChatsLiveTime = setInterval(msgChatsLive, 2000);
+		msgChatsLive(formdata);
 		
 	};
-	
-	
+		function msgChatsLive(formdata){
+			console.log(msgbox);
+			axios.post('/msgChatsLive', formdata)
+			.then(response=>{
+				console.log(response.data);
+			}).then(error=>{
+				//console.log(error);
+			});
+		};
 	
 	useEffect(()=>{
 		$.ajax({
@@ -105,7 +116,7 @@ function Master(props) {
 								</div>
 							</div>
 							<div id="main-screen" className="col-s-6 mp-0 h-100">
-								<Massage selectUser={selectUser} msgbox={msgbox} />
+								<Massage selectUser={selectUser} msgbox={msgbox} msgChat={msgChat} />
 							</div>
 							<div id="people-section" className="col-s-3 mp-0 md-none">
 								<NavSection />

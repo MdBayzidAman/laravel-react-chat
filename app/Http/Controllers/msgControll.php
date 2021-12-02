@@ -26,7 +26,19 @@ class msgControll extends Controller
 		
         return response()->json($data);
     }
-
+	
+	
+	
+    public function msgChatsLive(Request $request)
+    {
+		$from_user=session('LoggetUser');
+		
+		$data=massage::where([['to_user',$request->to_user],['from_user',$from_user]])->orWhere([['to_user',$from_user],['from_user',$request->to_user]])->get();
+		
+		
+        return response()->json($data);
+    }
+	
 
     public function store(Request $request)
     {
